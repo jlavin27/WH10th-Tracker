@@ -179,7 +179,6 @@ class gameWidget:
         self.finalize.pack_forget()
 
     def refresh(self):
-        print('Refresh')
         self.turn.refresh()
 
     def setCurrentlyPlaying(self,armyName):
